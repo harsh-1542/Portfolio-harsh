@@ -284,6 +284,14 @@ section {
 .about-containers,
 .about-details-container {
   display: flex;
+<<<<<<< HEAD
+=======
+  justify-content: center;
+  flex-wrap: wrap;
+
+  
+
+>>>>>>> 37e6762 (new commit)
 }
 
 .about-pic {
@@ -299,6 +307,10 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 37e6762 (new commit)
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
@@ -306,6 +318,25 @@ section {
   text-align: center;
 }
 
+<<<<<<< HEAD
+=======
+.details-container-project {
+  padding: 1.5rem;
+  flex: 1;
+  justify-content: center;
+  min-width: 300px;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+  transition: transform 0.5s ease-in-out;
+}
+
+.details-container-project:hover {
+  transform: scale(1.01); /* Slight zoom effect on hover */
+}
+>>>>>>> 37e6762 (new commit)
 .section-container {
   gap: 4rem;
   height: 80%;
