@@ -286,11 +286,7 @@ section {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-
-  
-
 }
-
 .about-pic {
   border-radius: 2rem;
 }
@@ -304,7 +300,6 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
@@ -316,7 +311,7 @@ section {
   padding: 1.5rem;
   flex: 1;
   justify-content: center;
-  min-width: 300px;
+  max-width: 300px;
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
