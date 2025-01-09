@@ -286,9 +286,6 @@ section {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-
-  
-
 }
 
 .about-pic {
@@ -315,8 +312,8 @@ section {
 .details-container-project {
   padding: 1.5rem;
   flex: 1;
-  justify-content: center;
-  min-width: 300px;
+  
+  
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
@@ -365,6 +362,10 @@ section {
   flex-direction: row;
   gap: 2.5rem;
   justify-content: space-around;
+}
+
+.project-img{
+  min-width: 300px;
 }
 
 article {
